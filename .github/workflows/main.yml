@@ -1,6 +1,7 @@
 name: "Common airport Checkin"
 
 on:
+  push:
   schedule:
     - cron: "0 15 8 * *"  # scheduled at 06:00 (UTC+8) everyday
   workflow_dispatch:
